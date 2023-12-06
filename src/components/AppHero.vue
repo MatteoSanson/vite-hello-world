@@ -1,10 +1,17 @@
 <script>
-export default {};
+export default {
+    name: 'AppHeroJubotron',
+    data() {
+        return {
+            text: 'Sono un Jumbotron',
+        };
+    },
+};
 </script>
 
 <template>
     <div>
-        <h2>Sono un Jumbotron</h2>
+        <h2>{{ text }}</h2>
     </div>
 </template>
 
