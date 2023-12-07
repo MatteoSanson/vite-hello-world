@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: 'AppHeroJubotron',
+    name: 'AppHeroJumbotron',
     data() {
         return {
             text: 'Sono un Jumbotron',
